@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: grey;
+}
+.logo{
+    margin: 30px 100px 0px;
+}
+.logo img{
+position: relative;
+max-width: 230px;
+max-height: 100px;
+top: -15px;
+}
+.loginForm{
+background-image: url(https://uidesign.gbtcdn.com/GB/images/promotion/2020/Gearbest/login_bg.jpg?imbypass=true);
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+
+.loginForm img{
+width: 100%;
+height: 80vh;
+}
+.form{
+width: 400px;
+height: 400px;
+background-color: rgb(255, 255, 255);
+float: right;
+margin: 30px 170px;
+}
+.a{
+display: flex;
+margin: 20px 30px;
+}
+.a h3{
+margin: 0px 30px;
+padding-bottom: 5px;
+color: gray;
+}
+#line{
+border-bottom: 4px solid #ffda00;
+cursor: pointer;
+}
+#line a{
+text-decoration: none;
+color: black;
+}
+#remove a{
+color: gray;
+text-decoration: none;
+}
+form input{
+display: block;
+width: 300px;
+height: 35px;
+margin: 15px 50px;
+}
+.frgt{
+display: flex;
+margin: 15px 50px;
+}
+#box1{
+margin: 2px ;
+}
+#box2{
+font-size: 13px;
+margin-right: 45px;
+
+}
+.float{
+font-size: 13px;
+text-align: end;
+}
+button{
+width: 310px;
+height: 35px;
+margin: 15px 50px;
+background-color: #ffda00;
+border: none;
+font-size: 15px;
+font-weight: 700;
+cursor: pointer;
+}
+.connect{
+margin: 15px 50px;
+text-align: center;
+}
+.icon {
+display: flex;
+margin: 5px 120px;
+text-align: center;
+}
+#p{
+margin: 5px 20px;
+width: 35px;
+height: 35px;
+border: 1px solid rgb(71, 70, 70);
+border-radius: 50%;
+}
+#p i{
+margin-top: 8px;
+}
+.p1{
+background-color: rgb(30, 77, 165);
+color: white;
+cursor: pointer;
+font-size: 20px;
+}
+.footer{
+text-align: center;
+margin: 3px;
+}
+.footer img{
+margin: 4px 10px;
+width: 40px;
+height: 20px;
+}
+.footer .copy p{
+font-size: 13px;
+color: gray;
+}

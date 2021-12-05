@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./style/payment.css">
+    <link rel="shortcut icon" href="https://uidesign.gbtcdn.com/GB/image/others/20190710_11250/gb_logo_icon.png">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"
+                    alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="one">
+            <div class="box1 h2">
+                <h2>Payment Method(s)</h2>
+            </div>
+            <div class="all">
+                <div class="abcd">
+                    <div class="container">
+                        <div class="icon">
+                            <div class="i">
+                                <div class="span"></div>
+                            </div>
+                            <img src="https://uidesign.zafcdn.com/ZF/image/5376/20210323_visa.png" alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/mastercard.png"
+                                alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/discover.png" alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/Diners-Club.png"
+                                alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/american-express.png"
+                                alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/Carte-Bancaire.png"
+                                alt="">
+                            <img src="https://uidesign.zafcdn.com/ZF/image/checkout/20190816_12066/maestro.png" alt="">
+                        </div>
+
+                        <div class="below">
+                            <input type="text" placeholder="Card Number">
+                            <div class="input">
+                                <select name='expireMM' id='expireMM'>
+                                    <option value=''>Expiration Month</option>
+                                    <option value='01'>January</option>
+                                    <option value='02'>February</option>
+                                    <option value='03'>March</option>
+                                    <option value='04'>April</option>
+                                    <option value='05'>May</option>
+                                    <option value='06'>June</option>
+                                    <option value='07'>July</option>
+                                    <option value='08'>August</option>
+                                    <option value='09'>September</option>
+                                    <option value='10'>October</option>
+                                    <option value='11'>November</option>
+                                    <option value='12'>December</option>
+                                </select> 
+                                <select name='expireYY' id='expireYY'>
+                                    <option value=''>Expiration Year</option>
+                                    <option value='20'>2020</option>
+                                    <option value='21'>2021</option>
+                                    <option value='22'>2022</option>
+                                    <option value='23'>2023</option>
+                                    <option value='24'>2024</option>
+                                </select> 
+                            </div>
+
+<input type="text" placeholder="Security Code"> <br>
+<input type="text" placeholder="Card Holder">          
+<div class="bill">
+    <p>Billing Address</p>
+</div>
+
+              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orderpart">
+        <div class="two">
+            <div class="box2">
+                <h2>Your Bill:</h2>
+            </div>
+        </div>
+        <div class="orderTotal">
+        <div class="order">
+            <p>Order Number</p>
+            <p id="orderId"></p>
+            <p>Shipping address</p>
+        </div>
+        <hr  color="#D0D0D0" size="1">
+        <div class="total">
+            <div class="one">
+            <p>Grand Total</p>
+            <p id="total"></p>
+        </div>
+        <div class="two">
+            <p>Payable Amount</p>
+            <p id="paytotal"></p>
+        </div>
+        </div>
+        <button onclick="payment()">Pay Now</button>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
+<script>
+let data = JSON.parse(localStorage.getItem("payment"));
+console.log(data);
+
+let total = document.getElementById("total");
+total.textContent = "$" + data;
+
+let paytotal = document.getElementById("paytotal")
+paytotal.textContent ="$" + data;
+paytotal.style.fontWeight = '700'
+
+let order = document.getElementById("orderId");
+order.textContent = Math.floor(Math.random()*103436568768954564)
+order.style.fontWeight = '700'
+
+
+function payment(){
+    alert("Payment Successful");
+    window.location.href = 'index.html'
+}
+
+
+
+</script>

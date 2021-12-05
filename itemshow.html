@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details & Buy Item</title>
+    <link rel="stylesheet" href="./style/itemshow.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://uidesign.gbtcdn.com/GB/image/others/20190710_11250/gb_logo_icon.png">
+
+</head>
+<body>
+    <div class="body">
+    <div class="navbar">
+        <div class="leftItem">
+            <ul>
+                <li><a href="#">Country Website</a>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+                <li><a href="#">Language</a>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+                <li><a href="#"> Ship to <img src="https://uidesign.gbtcdn.com/GB/app/2018/flag_png/us.png" alt=""> / USD</a>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+                <li><a href="#">Support Center</a>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+                <li><i class="fa fa-mobile" aria-hidden="true"></i>
+                    <a href="#">Save $3 with App</a>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="nav">
+        <div class="logo">
+            <a href="index.html">
+            <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"
+                alt="">
+            </a>
+        </div> 
+        <div class="rightItem">
+            <div class="searchbar">
+            <p>All</p> <i class="fa fa-angle-down" aria-hidden="true"></i>
+            
+            <input type="text"  id="search" placeholder="Products Keywords">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+<div class="signupItem">
+    <img src="https://www.shareicon.net/data/2016/01/05/698549_people_512x512.png" alt="">
+        <p><a href="login.html" id="name">Login</a></p>
+      <i class="fa fa-heart-o" aria-hidden="true"></i>
+      <p> Favourite</p>
+      <span id="span1">0</span>
+      <i class="fa fa-shopping-cart"></i>
+    <p><a href="cart.html">Cart</a></p>
+    <span id="span2">0</span>
+
+    </div>
+</div>
+</div>
+</div>
+<div class="category">
+    <p>Categories</p>
+    <p>New Arrivals</p>
+    <p>Warehouse EU</p>
+    <p>Exclusive App</p>
+</div>
+</div>
+ <!-- Navbar End -->
+
+ <div class="page">
+     <ul>
+         <li>Main page ></li>
+         <li>Health & Personal Care ></li>
+         <li>Health ></li>
+         <li>Thermometers ></li>
+     </ul>
+ </div>
+
+<div id="data"></div>
+
+<div id="footerPart"></div>
+</body>
+</html>
+<script type="module">
+    import  footer from "./component/footer.js"
+    document.getElementById('footerPart').innerHTML = footer();
+    </script>
+<script src="./scripts/itemshow.js"></script>

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f3f3f3;
+
+    }
+    ul li{
+    list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #666;
+     }
+.nav{
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.logo{
+    width: 1200px;
+
+}
+     .logo img{
+        position: relative;
+        max-width: 230px;
+        max-height: 100px;
+        margin: 15px 170px;
+    }
+
+
+ form #label{
+     float: right;
+ }
+
+
+ .btn{
+     margin: 20px 340px;
+ }
+ button{
+     background-color: #ffda00;
+     color: black;
+     border: 1px solid #ffda00;
+     width: 170px;
+     height: 40px;
+    }

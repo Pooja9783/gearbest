@@ -1,0 +1,115 @@
+.footer{
+    background-color: #f3f3f3;
+    padding: 40px 20px;
+}
+.nine{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+
+    background-color: rgb(255, 255, 255);
+}
+.nine .container{
+    display: grid;
+   grid-template-columns: repeat(5, 20%);
+   margin: 10px 20px;
+}
+.nine .one{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ten{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+.ten .one{
+    display: flex;
+}
+.ten p{
+    font-size: 17px;
+    margin: 4px 10px;
+}
+.ten input{
+    width: 300px;
+    height: 30px;
+}
+.ten button{
+    width: 100px;
+    height: 34px; 
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.ten .two{
+  margin-left: 180px;
+  display: flex;
+  cursor: pointer;
+}
+.ten .two p{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+
+}
+.ten .two i{
+    margin:7px auto;
+    color: white;
+}
+
+.elven{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+.elven .container{
+    display: flex;
+    font-size: 14px;
+}
+.elven .container .one{
+    margin: 10px 100px 0px 0px;
+}
+
+.elven .container .two{
+    margin: 10px 100px  0px 0px;
+}
+
+.elven .container .three{
+    margin: 10px 100px  0px 0px;
+}
+
+.elven .container .four{
+    margin: 10px 100px  0px 0px;
+}
+
+.twelve{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.twelve .container{
+    text-align: center;
+    margin: 10px 45px;
+
+}
+.twelve .container img{
+    height: 40%;
+}
+
+.thriteen{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
+.thriteen .container p{
+    color: #f3f3f3;
+    text-align: center;
+   padding: 10px 0px;
+}

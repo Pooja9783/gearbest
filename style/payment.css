@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f3f3f3;
+
+    }
+    ul li{
+    list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #666;
+     }
+     .nav{
+        display: flex;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: white;
+    }
+    .logo{
+        width: 1200px;
+    
+    }
+         .logo img{
+            position: relative;
+            max-width: 230px;
+            max-height: 100px;
+            margin: 15px 170px;
+        }
+
+        .body{
+            margin:50px  auto;
+             display: flex;
+             width: 1150px;
+        }
+
+    .body .one .box1{
+        width: 750px;
+        border: 1px solid #e0e0e0;
+        background-color: rgb(252, 252, 252);
+        margin: 1px 15px;
+        padding: 15px;
+
+    }
+        .body  .box1 h2, .box2 h2{
+        font-weight: 400;
+        font-size: 20px;
+        }
+.body .abcd {
+margin: 0px 15px;
+background-color: white;
+}
+.all .abcd{
+    height: 500px;
+}
+.body .abcd .container .icon{
+    display: flex;
+}
+.body .abcd .icon .i{
+    border: 1px solid rgb(15, 15, 15);
+    width: 18px;
+    height: 18px;
+    margin:20px 15px;
+    border-radius: 50%;
+}
+.body .abcd .icon .i .span{
+    border: 1px solid rgb(18, 18, 19);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px ;
+    background-color: black;
+}
+.body .abcd .icon img{
+    width: 50px;
+    margin:15px 5px 0px 5px;
+    border: 1px solid rgb(202, 202, 202);
+
+}
+
+.body .abcd .below{
+    width: 600px;
+    margin: 20px 58px;
+    height: 300px;
+    border: 1px solid rgb(133, 132, 132);
+    text-align: center;
+}
+.body .abcd .below input{
+border: 1px solid rgb(146, 144, 144);
+ width: 500px;
+height: 35px;
+margin: 10px;
+outline: none;
+}
+
+.body .abcd .input select{
+    width: 245px;
+    height: 35px;
+    margin: 5px;
+    outline: none;
+color: rgb(133, 132, 132);
+}
+
+.body .bill{
+    float: left;
+    margin: 5px 48px;
+    color:black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+    .body .two .box2{
+        width: 350px;
+        border: 1px solid #e0e0e0;
+        padding: 15px;
+        background-color: rgb(252, 252, 252);
+        margin: 1px 15px 0px 15px;
+    }
+
+     .orderTotal{
+        border: 1px solid #e0e0e0;
+        background-color: rgb(252, 252, 252);
+        width: 380px;
+        margin: 0px 15px;
+    }
+
+    .orderTotal .order{
+        padding: 10px;
+    }
+
+    .orderTotal .total{
+        padding: 10px;
+    }
+
+    
+    .orderTotal .one{
+        display: flex;
+        margin: 12px 0px;
+
+    }
+    .orderTotal .one #total{
+        margin-left: 220px;
+    }
+    .orderTotal .two{
+        display: flex;
+            }
+
+            .orderTotal .two #paytotal{
+                margin-left: 186px;
+
+
+            }
+.orderTotal button{
+margin: 15px;
+width: 350px;
+padding: 10px;
+color: black;
+background-color: #ffda00;
+border: none;
+outline: none;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+    }
+
+    
