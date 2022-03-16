@@ -27,12 +27,12 @@ I have faced issues with Searching products, and Cart Item Deatails showing
 - In header displays search, login, and cart pages.
 - Created image carousal.
 - At the bottom section there is a footer.
-![App Screenshot](https://raw.githubusercontent.com/masai-course/pooja_fw11_327/master/unit-3/Project/gearbest/Source/homepage.png)
+![App Screenshot](https://github.com/Pooja9783/gearbest/blob/main/Source/homepage.png)
 
 
 ## Login Page
 - For authentication i used in Localstorage.
-![App Screenshot](https://raw.githubusercontent.com/masai-course/pooja_fw11_327/master/unit-3/Project/gearbest/Source/loginpage.png)
+![App Screenshot](https://github.com/Pooja9783/gearbest/blob/main/Source/loginpage.png)
 
 
 ## product Page
