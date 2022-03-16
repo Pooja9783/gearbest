@@ -37,4 +37,4 @@ I have faced issues with Searching products, and Cart Item Deatails showing
 
 ## product Page
 
-![App Screenshot](https://raw.githubusercontent.com/masai-course/pooja_fw11_327/master/unit-3/Project/gearbest/Source/Product.png)
+![App Screenshot](https://github.com/Pooja9783/gearbest/blob/main/Source/Product.png)
